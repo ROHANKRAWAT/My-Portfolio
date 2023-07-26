@@ -51,11 +51,6 @@
         font-size: 1.01rem;
     }
 
-    main hr {
-        border: 5px;
-        padding: 30;
-    }
-
     .left {
         font-size: 1.5rem
     }
@@ -64,6 +59,8 @@
         display: flex;
         justify-content: space-around;
         margin: 80px 0;
+        text-align: center;
+        margin: 130px 0;
     }
 
     .firstsection>div {
@@ -92,6 +89,13 @@
         ;
     }
 
+    main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+    }
+
     .secondsection {
         max-width: 80vw;
         margin: auto;
@@ -101,24 +105,53 @@
         font-size: 1.9rem;
     }
 
-    .container {
+    .secondsection .box {
+        background: whitesmoke;
+        width: 65vw;
+        height: 2px;
+        margin: 56px 0;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        justify-content: space-between;
-        justify-content: space-around;
-        width: 100%;
-        height: fit-content;
     }
 
-    .item {
-        background-color: blueviolet;
-        border: 2px solid black;
-        margin: 10px;
-        padding: 3px;
-        height: 200px;
-        width: 200px;
+    .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: whitesmoke;
+        margin: 0 100px;
     }
+
+    .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        font-size: 14px;
+    }
+
+    .image-top {
+        top: -30px;
+        left: -11px;
+        position: relative;
+        width: 29px;
+        /* top: -32px;
+        left: -9px;
+        position: relative;
+        width: 23px; */
+    }
+
+    footer {
+        background-color: purple;
+        height: 233px;
+
+    }
+
+    .footer {}
 </style>
 
 <body>
@@ -146,15 +179,69 @@
                 <span id="element"></span>
             </div>
             <div class="rightsection">
-                <img src="cbc76a054c9599cc13d5d69910029a15.jpg" alt="">
+                <img src="Untitled-design-50.webp" alt="">
             </div>
         </section>
         <hr>
         <section class="secondsection">
-            <h1>Work Expereience</h1>
+            <H1><B>ROHAN K RAWAT</B></H1>
+            <span class="text-gray"><B>Frontend Developer</B></span>
+            <h1></h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        <B>EDUCATION</B>
+
+                    </div>
+                    <div class="vertical-desc"><b>BACHELORS IN MATHEMATICS </b> SIDDHARTH UNIVERSITY KAPILVASTU 2019 - 2022
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        <B>SKILLS</B>
+
+                    </div>
+                    <div class="vertical-desc">Programming Languages: HTML, CSS, JavaScript
+                        Web Development: Responsive Design, Cross-Browser
+                        Compatibility, User Experience (UX) Design
+                        Version Control: Git
+                        Familiarity with: Bootstrap
+                        </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        <B>EXPERIENCE</B>
+                    </div>
+                    <div class="vertical-desc">While I do not have specific professional experience as a web
+                        developer, I have gained valuable transferable skills through my
+                        [non-computer science] background. This includes strong analytical
+                        and problem-solving abilities, effective communication and
+                        teamwork skills, and a keen eye for detail.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                       <B>ABOUT</B> 
+                    </div>
+                    <div class="vertical-desc">A highly motivated and dedicated individual seeking a challenging position as a Web Developer. Offering a strong passion for coding, a solid foundation in self-learning, and a commitment to delivering high-quality web solutions. Excited to apply my skills and contribute to the success of a dynamic organization.</div>
+                </div>
+            </div>
 
         </section>
     </main>
+    <!-- <footer>
+      <div class="footer">
+        <div class="footer-first">
+            <h3>Rohan's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second"></div>
+        <div class="footer-third"></div>
+        <div class="footer-fourth"></div>
+      </div>
+    </footer> -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
@@ -163,20 +250,15 @@
             typeSpeed: 50,
         });
     </script>
-    <div class="container">
-        <div class="item 1" id="item">first</div>
-        <div class="item 2" id="item">second</div>
-        <div class="item 3" id="item">third</div>
-        <!-- <div class="item 4" id="item">fourth</div>
-        <div class="item 5" id="item">fifth</div>
-        <div class="item 6" id="item">sixth</div> -->
-    </div>
-    <div class="container">
-
-        <div class="item 4" id="item">fourth</div>
-        <div class="item 5" id="item">fifth</div>
-        <div class="item 6" id="item">sixth</div>
-    </div>
-</body>
+    <!-- <footer>
+        <div class="footer">
+          <div class="footer-first">
+              <h3>Rohan's Developer Portfolio</h3>
+          </div>
+          <div class="footer-second"></div>
+          <div class="footer-third"></div>
+          <div class="footer-fourth"></div>
+        </div>
+      </footer> -->
 
 </html>
