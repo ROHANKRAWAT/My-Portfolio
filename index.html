@@ -58,7 +58,6 @@
     .firstsection {
         display: flex;
         justify-content: space-around;
-        margin: 80px 0;
         text-align: center;
         margin: 130px 0;
     }
@@ -69,7 +68,18 @@
 
     .leftsection {
         font-size: 3rem;
-        margin: 70px;
+    }
+    .leftsection .button{
+        padding: 50px 0;
+    }
+
+    .leftsection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: whitesmoke;
+        border: 2px solid white;
+        font-size: 20px;
+        cursor: pointer;
     }
 
     .rightsection img {
@@ -107,7 +117,7 @@
 
     .secondsection .box {
         background: whitesmoke;
-        width:65vw;
+        width: 65vw;
         height: 2px;
         margin: 56px 0;
         display: flex;
@@ -124,25 +134,22 @@
         position: relative;
         top: 75px;
         width: 150px;
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .vertical-desc {
         position: relative;
         top: 86px;
         color: gray;
-        font-size: 14px;
+        font-size: 9px;
+        width: 150px;
     }
 
     .image-top {
-        top: -30px;
-        left: -11px;
-        position: relative;
-        width: 29px;
-        /* top: -32px;
+        top: -32px;
         left: -9px;
         position: relative;
-        width: 23px; */
+        width: 23px;
     }
 
     footer {
@@ -151,7 +158,9 @@
 
     }
 
-    .footer {}
+    .footer {
+        display: flex;
+    }
 </style>
 
 <body>
@@ -177,6 +186,11 @@
                 <div>and I am a Passionate</div>
                 <!-- <div>Web Developer</div> -->
                 <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+
+                </div>
             </div>
             <div class="rightsection">
                 <img src="Untitled-design-50.webp" alt="">
@@ -194,7 +208,8 @@
                         <B>EDUCATION</B>
 
                     </div>
-                    <div class="vertical-desc"><b>BACHELORS IN MATHEMATICS </b> SIDDHARTH UNIVERSITY KAPILVASTU 2019 - 2022
+                    <div class="vertical-desc"><b>BACHELORS IN MATHEMATICS </b> SIDDHARTH UNIVERSITY KAPILVASTU 2019 -
+                        2022
                     </div>
                 </div>
                 <div class="vertical">
@@ -204,9 +219,10 @@
 
                     </div>
                     <div class="vertical-desc">
-                    Programming Languages: HTML, CSS, JavaScript Web Development: Responsive Design, Cross-Browser Compatibility, User Experience (UX) Design Version Control: Git
+                        Programming Languages: HTML, CSS, JavaScript Web Development: Responsive Design, Cross-Browser
+                        Compatibility, User Experience (UX) Design Version Control: Git
                         Familiarity with: Bootstrap
-                        </div>
+                    </div>
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="developer.png" alt="">
@@ -222,9 +238,12 @@
                 <div class="vertical">
                     <img class="image-top" src="developer.png" alt="">
                     <div class="vertical-title">
-                       <B>ABOUT</B> 
+                        <B>ABOUT</B>
                     </div>
-                    <div class="vertical-desc">A highly motivated and dedicated individual seeking a challenging position as a Web Developer. Offering a strong passion for coding, a solid foundation in self-learning, and a commitment to delivering high-quality web solutions. Excited to apply my skills and contribute to the success of a dynamic organization.</div>
+                    <div class="vertical-desc">A highly motivated and dedicated individual seeking a challenging
+                        position as a Web Developer. Offering a strong passion for coding, a solid foundation in
+                        self-learning, and a commitment to delivering high-quality web solutions. Excited to apply my
+                        skills and contribute to the success of a dynamic organization.</div>
                 </div>
             </div>
 
@@ -235,9 +254,16 @@
         <div class="footer-first">
             <h3>Rohan's Developer Portfolio</h3>
         </div>
-        <div class="footer-second"></div>
-        <div class="footer-third"></div>
-        <div class="footer-fourth"></div>
+        <div class="footer-second">
+
+        </div>
+        <div class="footer-third">
+
+        </div>
+
+        <div class="footer-fourth">
+
+        </div>
       </div>
     </footer> -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -248,15 +274,5 @@
             typeSpeed: 50,
         });
     </script>
-    <!-- <footer>
-        <div class="footer">
-          <div class="footer-first">
-              <h3>Rohan's Developer Portfolio</h3>
-          </div>
-          <div class="footer-second"></div>
-          <div class="footer-third"></div>
-          <div class="footer-fourth"></div>
-        </div>
-      </footer> -->
 
 </html>
